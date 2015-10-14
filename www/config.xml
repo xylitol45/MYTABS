@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.myhoge845932" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>myhoge</name>
+<widget id="com.kick55.a.MYTABS" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>MYTABS</name>
   <description>
-        An Ionic Framework and Cordova project.
+        MYTABS
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="xylitol45@gmail.com" href="http://kick55.com/">
+      xylitol45@gmail.com
     </author>
   <content src="index.html"/>
   <access origin="*"/>
