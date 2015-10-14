@@ -1,7 +1,13 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope,$cordovaDevice) {
+.controller('DashCtrl', function($scope,$ionicPlatform,$cordovaDevice) {
   // $scope.token = $cordovaDevice.getUUID();
+  var _this = this;
+$ionicPlatform.ready(function() {
+  _this.token = $cordovaDevice.getUUID();
+  //$cordovaPlugin.someFunction().then(success, error);
+});
+  
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
