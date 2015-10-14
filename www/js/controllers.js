@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
   var _this = this;
   _this.token = 'abcd';
   
-  _this.token = $cordovaDevice.getUUID();
+//  _this.token = $cordovaDevice.getUUID();
   
 //  document.addEventListener("deviceready", function () {
 //     _this.token = $cordovaDevice.getUUID();
