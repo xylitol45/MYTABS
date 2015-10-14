@@ -4,9 +4,12 @@ angular.module('starter.controllers', [])
   // $scope.token = $cordovaDevice.getUUID();
   var _this = this;
   _this.token = 'abcd';
-  document.addEventListener("deviceready", function () {
-//    _this.token = $cordovaDevice.getUUID();
-  },false);
+  
+  _this.token = $cordovaDevice.getUUID();
+  
+//  document.addEventListener("deviceready", function () {
+//     _this.token = $cordovaDevice.getUUID();
+//  },false);
 
   
 })
