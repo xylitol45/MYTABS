@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope,$cordovaDevice) {
-  $scope.token = $cordovaDevice.getUUID();
+  // $scope.token = $cordovaDevice.getUUID();
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
