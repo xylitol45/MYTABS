@@ -1,12 +1,13 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope,$ionicPlatform,$cordovaDevice) {
+.controller('DashCtrl', function($scope,$cordovaDevice) {
   // $scope.token = $cordovaDevice.getUUID();
   var _this = this;
-$ionicPlatform.ready(function() {
-  _this.token = $cordovaDevice.getUUID();
-  //$cordovaPlugin.someFunction().then(success, error);
-});
+  _this.token = 'abcd';
+  document.addEventListener("deviceready", function () {
+    _this.token = $cordovaDevice.getUUID();
+  },false);
+
   
 })
 
