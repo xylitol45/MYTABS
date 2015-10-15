@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.kick55.a.MYTABS" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>MYTABS</name>
+  <description>
+        MYTABS
+    </description>
+  <author email="xylitol45@gmail.com" href="http://kick55.com/">
+      xylitol45@gmail.com
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  
+    <!-- Core plugins -->
+    <gap:plugin name="org.apache.cordova.device" />
+
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
+
+</widget>
